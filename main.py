@@ -14,7 +14,7 @@ def load_face_detection_model():
 
 # Function to load emotion classification model
 def load_emotion_classification_model():
-    model_path = './models/FER_ResNet.h5'  # Path to your emotion classification model
+    model_path = './models/FER_VGG16.h5'  # Path to your emotion classification model
     model = load_model(model_path)
     return model
 
